@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 5px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 10px 50px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover{
+    color: rgb(21, 255, 0);
+}
+
+section:not(#home){
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+}
+
+img {
+    height: 300px;
+    border-radius: 15px;
+}
+
+#home{
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/gallery/W94XAGJVK4871649353625265.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home h1{
+    color: rgb(255, 153, 0);
+    border-radius: 4px;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+#home p{
+    color: aliceblue;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.content img{
+    height: 350px;
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+
+.content .text{ 
+    max-width: 600px; 
+    text-align: left;
+}
+
+.content .text h2{  
+    font-size: 2em;
+    margin-bottom: 20px; 
+}
+
+.content .text p{
+    color: rgb(255, 255, 255);
+    background-color: #0000006b;
+    border-radius: 5px;
+}
+#dano{
+    background-image: url(https://s3.us-east-1.amazonaws.com/dexerto-assets-production-cbbdf288/uploads/2020/07/13180140/toronto-overwatch-2.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+#dano h2{
+    text-decoration: underline;
+    margin-left: -10px;
+}
+
+#dano p{
+    margin-left: -10px;
+}
+
+#suporte{
+    background-image: url(https://i.pinimg.com/originals/62/e5/27/62e527724582126888dc4678dbc710fa.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+#suporte h2{ 
+    text-decoration: underline;
+    margin-left: -10px;
+}
+
+#suporte p{
+    margin-left: -10px;
+}
+
+#tanque{
+    background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/overwatch-2-maps-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tanque h2{
+    text-decoration: underline;
+    margin-left: -10px;    
+}
+
+#tanque p{
+    margin-left: -10px;
+}
